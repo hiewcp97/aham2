@@ -76,7 +76,7 @@ bulkPDFGenerationSystem/
    ```bash
    python3 -m bulkPDFGenerationSystem.run
    ```
-   *Note: Ensure your virtual environment is activated.*
+   *Note: Ensure your virtual environment is activated. If python3 not working can try python -m xxxx*
 
 2. **Run the standard test client:**
    In a separate terminal:
