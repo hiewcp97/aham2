@@ -1,6 +1,9 @@
-# Bulk PDF Generation System — Design Document
+# Bulk PDF Generation System — Architecture Document
+
+> **Note:** This document outlines the high-level architecture and design of the system. For technical implementation details, setup instructions, and API references, please refer to the [System Documentation](./bulkPDFGenerationSystem/README.md).
 
 ## Architecture Overview
+...
 
 **Purpose:** A backend service that accepts large bulk PDF generation requests (thousands → hundreds of thousands), generates PDFs asynchronously, stores them for retrieval, and exposes job status and failures.
 
