@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Pytest
+.pytest_cache/
+.pytest/
+
+# Project Specific
+bulkPDFGenerationSystem/metadata.db
+bulkPDFGenerationSystem/outputs/*
+bulkPDFGenerationSystem/storage/*
+
+# Keep directories but ignore content
+!bulkPDFGenerationSystem/outputs/.gitkeep
+!bulkPDFGenerationSystem/storage/.gitkeep
+
+# OS generated files
+.DS_Store
+Thumbs.db
